@@ -42,4 +42,4 @@ I've built real-world AI projects like:
 
 ---
 
-⚡ *Always building, always learning. Let's create something awesome together!*
+⚡ *Always building. always learning. Let's create something awesome together!*
