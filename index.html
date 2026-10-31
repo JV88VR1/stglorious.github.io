@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robbins Kipchirchir | AI Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="Bio/Passport.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 1rem;
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: #f1f5f9;
+      text-decoration: none;
+      font-weight: 600;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+    nav a::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #38bdf8;
+      transition: width 0.3s ease;
+    }
+    nav a:hover::after,
+    nav a.active::after {
+      width: 100%;
+    }
+    nav a:hover,
+    nav a.active {
+      color: #38bdf8;
+    }
+    .resume-section {
+      background: #1e293b;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 900px;
+      border-radius: 8px;
+    }
+    .resume-section h2 {
+      color: #38bdf8;
+      margin-bottom: 1rem;
+    }
+    .resume-section iframe {
+      width: 100%;
+      height: 500px;
+      border: 2px solid #334155;
+      border-radius: 8px;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #38bdf8;
+      color: #0f172a;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(56, 189, 248, 0.4);
+      transition: background 0.3s ease;
+    }
+    .download-btn:hover {
+      background: #0ea5e9;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="#resume">Resume</a>
+  </nav>
+
+  <header>
+    <h1>Robbins Kipchirchir</h1>
+    <p>Aspiring AI Developer &amp; Prompt Engineer</p>
+    <img src="Bio/Passport.jpg" alt="Robbins Kipchirchir" width="120" />
+  </header>
+
+  <section id="about">
+    <h2>👤 Professional Summary</h2>
+    <p>Self-taught AI enthusiast and aspiring developer with hands-on experience in building conversational assistants, prompt workflows, and web-connected AI agents using Python and LLMs. Skilled in voice integration, prompt engineering, and UI-driven AI solutions, with tools like Cursor AI, Zencoder, and OpenRouter. Known for fast learning, adaptability, and applying real-world problem-solving through self-learning, freelancing, and project-based execution.</p>
+  </section>
+
+  <section id="experience">
+    <h2>💼 Experience</h2>
+    <div class="project">
+      <h3>Prompt Engineer – Handshake AI and Outlier</h3>
+      <p><em>United States (Remote) · Sep 2025 – Present</em></p>
+      <p>Designed and refined AI prompts for chatbots and social media content generation, focusing on role-based prompting, instruction design, and iterative output refinement. Collaborated with teams to optimize LLM outputs for real-world applications, enhancing productivity and improving AI-generated content quality.</p>
+    </div>
+    <div class="project">
+      <h3>Graphic Designer / IT Instructor / Computer Operations – Clin Corp Limited</h3>
+      <p><em>Nairobi, KE · Apr 2024 – Present</em></p>
+      <p>Design and produce social media graphics, promotional posters, and branded visual content for Instagram, Facebook, and X (Twitter). Conceptualize, shoot, edit, and deliver video content and motion graphics for marketing campaigns. Develop consistent visual identities, maintain brand guidelines, and turn campaign briefs into on-brand designs to deadline using Adobe Photoshop, Illustrator, Premiere Pro, Canva, and CapCut.</p>
+    </div>
+    <div class="project">
+      <h3>Technical Resume Writer (Freelance / Peer Help) – Freelancing Worker</h3>
+      <p><em>Worldwide · 2019 – Present</em></p>
+      <p>Created, edited, and reviewed 10+ successful resumes for students and early-career professionals using Overleaf (LaTeX), including Harvard-style formats. Applied to jobs and internships on clients’ behalf through LinkedIn, Indeed, and other platforms, customizing resumes and cover letters using LLM tools, Resume Worded, and AI-powered optimization platforms.</p>
+    </div>
+    <div class="project">
+      <h3>Swimming Instructor (Part-time) – Noble Hotel and Conference Centre</h3>
+      <p><em>Worldwide · April 2024 – Present</em></p>
+      <p>Taught and trained swimmers and conducted basic workout sessions for boys and girls. Oversaw the pool facility, reported maintenance needs, and supervised repair work. Ensured the health and safety of participants and responded to accidents and emergencies following incident protocols.</p>
+    </div>
+    <div class="project">
+      <h3>Technical &amp; Assistant Manager – Smart Image and Cyber Services</h3>
+      <p><em>Worldwide · Jan 2017 – Jul 2017</em></p>
+      <p>Worked on printing and design jobs including flyers and posters, brochures and calendars, 3D signage, roll-up banners, T-shirt printing, engraving, funeral programs, receipt and invoice books, and wedding and engagement cards.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>✨ Projects</h2>
+    <div class="project">
+      <h3><a href="https://github.com/YOUR-USERNAME/ROCCHI-AI-Conversational-Assistant">ROCCHI AI Conversational Assistant v1</a></h3>
+      <p>A full-featured conversational AI assistant powered by DeepSeek and LLMs. Built with Python and integrated with voice interaction and personalized response tuning for natural and context-aware conversations.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/YOUR-USERNAME/ROCCHI-Universal-OpenRouter-AI-Assistant">ROCCHI Universal OpenRouter AI Assistant v2.0</a></h3>
+      <p>An advanced AI assistant integrating LLM capabilities with the OpenRouter API to access multiple large language models and real-time internet data. Features dynamic web search, live data retrieval, multi-model routing, voice interaction, and personalized conversational context, allowing highly adaptive and up-to-date responses across diverse tasks.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/YOUR-USERNAME/JACK_AI">Jack – AI Travel Assistant</a></h3>
+      <p>A voice-enabled AI travel assistant developed in Python using OpenAI APIs. Jack provides real-time travel suggestions, location-based tips, and conversational interaction in a simple, user-friendly interface designed for travelers.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>🎓 Education</h2>
+    <div class="cert">
+      <p><strong>Kenya Methodist University, KE</strong> – Bachelor of Business Information Technology (Sept 2017 – July 2021)</p>
+      <p>Business-focused IT degree covering systems analysis, databases, web development, and business management.</p>
+      <p><strong>Oracle</strong> – Full Stack AI (ML + DL), self-paced. Coursework: Python, TensorFlow, PyTorch, Scikit-learn, OpenCV, NLP.</p>
+      <p><strong>St Michael’s Terige</strong> – Kenya Certificate of Secondary Education (KCSE), 2013 – 2016</p>
+      <p><strong>Achievers Academy, Eldoret</strong> – Kenya Certificate of Primary Education, 2005 – 2012</p>
+      <p><strong>Self-Learning / Independent Study</strong> – YouTube, Coursera, Udemy, LinkedIn Learning, and Simplilearn. Topics: Web Development (HTML, CSS, Tailwind CSS, JavaScript basics), Python (NumPy, Pandas, Matplotlib), Cybersecurity fundamentals (ongoing), AI tools (LLMs, AI assistants, prompt engineering, voice assistants).</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>📅 Certifications</h2>
+    <div class="cert">
+      <p><strong>Prompt Engineering</strong> – Coursera</p>
+      <p><strong>AI Web Development with ChatGPT</strong> – Coursera</p>
+      <p><strong>Python Fundamentals</strong> – Coursera</p>
+      <p><strong>Introduction to Data Science with Python</strong> – Coursera</p>
+      <p><strong>AI Foundations</strong> – Oracle</p>
+      <p><strong>Google Analytics</strong> – Oracle</p>
+      <p><strong>Problem Solving</strong> – HackerRank</p>
+      <p><strong>Professional Mediator Training</strong> – Peacum Mediation Centre, Nairobi</p>
+      <p><strong>Marketing and Digital Marketing Skills</strong> – Generation Kenya</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>📊 Skills</h2>
+    <p><strong>Design &amp; Video:</strong> Adobe Photoshop, Illustrator, Premiere Pro, After Effects, Canva, CapCut, DaVinci Resolve, Midjourney; social media design, poster and print design, brand identity, typography and layout</p>
+    <p><strong>AI &amp; Prompt Engineering:</strong> Prompt design, instruction engineering, role-based prompts, AI workflow optimization; ChatGPT, Gemini, DeepSeek, Claude, Cursor AI, Zencoder, Google NotebookLM, Make.com</p>
+    <p><strong>Development:</strong> HTML, CSS, Tailwind CSS, JavaScript (basic), Python (learning), VS Code, Jupyter Notebook, GitHub, Overleaf</p>
+    <p><strong>Productivity:</strong> MS Office (Word, Excel, Power BI, PowerPoint, OneNote, Teams, SharePoint)</p>
+    <p><strong>Soft Skills:</strong> Problem solving, adaptability, fast learning, communication, teamwork, remote collaboration, critical thinking</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>📢 Contact</h2>
+    <p>Email: <a href="mailto:robbinmetto@gmail.com">robbinmetto@gmail.com</a></p>
+    <p>Phone: <a href="tel:+254725361071">+254 (725) 361-071</a></p>
+    <p>GitHub: <a href="https://github.com/YOUR-USERNAME">github.com/YOUR-USERNAME</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/robbins-kipchirchir/">linkedin.com/in/robbins-kipchirchir</a></p>
+    <p>Location: Nairobi, Kenya</p>
+  </section>
+
+  <section id="resume" class="resume-section">
+    <h2>📚 Resume</h2>
+    <iframe src="Bio/RobbinKipchirchir_Resume.pdf" title="Robbins Kipchirchir Resume"></iframe>
+    <a class="download-btn" href="Bio/RobbinKipchirchir_Resume.pdf" download>⬇️ Download Resume</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Robbins Kipchirchir. Built with love and Python.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
